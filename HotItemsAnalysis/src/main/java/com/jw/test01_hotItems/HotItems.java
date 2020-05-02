@@ -170,6 +170,7 @@ public class HotItems {
             itemState = getRuntimeContext().getListState(new ListStateDescriptor<ItemViewCount>("itemState", ItemViewCount.class));
         }
 
+
         //每一条数据来了怎么办法
 
         public void processElement(ItemViewCount value, Context ctx, Collector<String> out) throws Exception {
