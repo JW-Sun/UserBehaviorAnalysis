@@ -12,6 +12,7 @@
         <module>HotItemsAnalysis</module>
         <module>NetworkFlowAnalysis02</module>
         <module>MarketAnalysis03</module>
+        <module>LoginFailDetect04</module>
     </modules>
 
     <properties>
