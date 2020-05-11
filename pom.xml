@@ -13,6 +13,7 @@
         <module>NetworkFlowAnalysis02</module>
         <module>MarketAnalysis03</module>
         <module>LoginFailDetect04</module>
+        <module>OrderPayDetect05</module>
     </modules>
 
     <properties>
@@ -27,6 +28,14 @@
             <artifactId>flink-java</artifactId>
             <version>${flink.version}</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-cep_2.11</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -65,6 +74,16 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
             </plugin>
 
             <plugin>
