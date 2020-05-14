@@ -1,4 +1,4 @@
-package com.jw.app;
+package com.jw.app.opd01_timeout;
 
 import com.jw.entity.OrderEvent;
 import com.jw.entity.OrderResult;
@@ -11,7 +11,6 @@ import org.apache.flink.cep.PatternTimeoutFunction;
 import org.apache.flink.cep.pattern.Pattern;
 import org.apache.flink.cep.pattern.conditions.IterativeCondition;
 import org.apache.flink.streaming.api.TimeCharacteristic;
-import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.KeyedStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;

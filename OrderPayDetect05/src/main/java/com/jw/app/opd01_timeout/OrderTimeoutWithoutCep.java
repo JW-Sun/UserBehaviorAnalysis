@@ -1,4 +1,4 @@
-package com.jw.app;
+package com.jw.app.opd01_timeout;
 
 import com.jw.entity.OrderEvent;
 import com.jw.entity.OrderResult;
@@ -16,7 +16,6 @@ import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
 import org.apache.flink.util.Collector;
 import org.apache.flink.util.OutputTag;
-import org.apache.kafka.common.protocol.types.Field;
 
 import java.net.URL;
 
